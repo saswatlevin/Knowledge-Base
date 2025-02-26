@@ -1,0 +1,5 @@
+1) Check Log Tail -> part of Betterstack. Compare Betterstack vs. DataDog.
+2) Check if they have in tegration with DO and Winston.
+3) Compare their pricing.
+Start with a simple solution 
+Create a mockup and then move to 

@@ -1,0 +1,15 @@
+https://github.com/validatorjs/validator.js#validators
+https://www.npmjs.com/package/mongoose-validator
+https://github.com/antarasi/path-validation
+https://flaviocopes.com/how-to-get-last-item-path-javascript/
+https://medium.com/@techsuneel99/validate-incoming-requests-in-node-js-like-a-pro-95fbdff4bc07
+https://www.bitovi.com/blog/comparing-schema-validation-libraries-ajv-joi-yup-and-zod
+https://www.npmjs.com/package/joigoose
+https://gist.github.com/stongo/6359042 -> Joi Validation In A Mongoose Model
+https://amandeepkochhar.medium.com/what-ive-learned-validating-with-joi-object-schema-validation-7a90847f9ed4
+https://stackoverflow.com/questions/70256124/how-to-validate-request-body-in-node-js-express-is-it-possible-without-using
+
+https://mongoosejs.com/docs/validation.html
+https://stackoverflow.com/questions/28710345/sanitize-user-input-in-mongoose
+https://stackoverflow.com/questions/15627967/why-mongoose-doesnt-validate-on-update
+https://rixong.medium.com/securing-an-express-mongodb-mongoose-api-9e7d48731491

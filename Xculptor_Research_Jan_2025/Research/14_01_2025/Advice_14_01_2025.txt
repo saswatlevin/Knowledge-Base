@@ -1,0 +1,6 @@
+Where will we install
+What we will install
+Where will the data be sent, processed and stored.
+How will the Node Server interact with it
+
+Certain Saas Providers -> Datadog (Sent to them , stored with JSON and 

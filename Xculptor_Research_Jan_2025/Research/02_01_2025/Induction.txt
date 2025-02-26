@@ -1,0 +1,26 @@
+
+Google Meet Link: https://meet.google.com/ipp-vwdo-ofs
+
+Large number of APIs -> API Documentation.
+Few days on API.
+Customers need to know what to do and do it right.
+Built-in fault tolerance
+
+Detailed research on APIs -> Find out how to expose APIs to the public.
+API design -> API error handling, API documentation, 
+1) How to let customers handle APIs?; Best practices in technology and documentation
+2) Authorization and Authentication -> Roles, Responsibilities, Token Management, Key Management, Encryption.
+
+3D Rendering, 3d Commerce, 3d Configurators.
+Option for people to test the APIs
+3D Commerce -> Awareness, Consideration, Purchase
+Steps in online buying
+Customers 'thought process
+What are the kinds of messaging a brand makes to a customer.
+How do I introduce 3d models at any stage.
+3D model is integrated on web page itself.
+3D Commerce -> Commerce using 3D models.
+Interaction with 3D models -> APIs.
+We will have a call on a daily basis.
+
+How can the customer interact with the model without explicit instruction ? (UX Design)

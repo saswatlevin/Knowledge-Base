@@ -1,0 +1,18 @@
+[1] https://nodejs.org/api/errors.html
+[2] https://nodejs.org/api/assert.html#class-assertassertionerror
+[3] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError
+[4] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError
+[5] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError
+[6] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError
+[7] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError
+[8] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError
+
+https://github.com/errwischt/stacktrace-parser
+https://stackoverflow.com/questions/2917175/return-multiple-values-in-javascript
+
+
+file: 'node:internal/process/task_queues',
+    methodName: 'process.processTicksAndRejections',
+    arguments: [],
+    lineNumber: 90,
+    column: 21

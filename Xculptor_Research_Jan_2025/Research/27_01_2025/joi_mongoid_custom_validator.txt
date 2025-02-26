@@ -1,0 +1,27 @@
+const Joi = require('joi');
+const { ObjectId } = require('mongodb');
+
+// Custom Joi validation for MongoDB ObjectId
+const objectIdValidation = Joi.custom((value, helpers) => {
+  if (!ObjectId.isValid(value)) {
+    return helpers.error('any.invalid'); // Custom error message
+  }
+  return value; // Return the valid ObjectId
+}, 'MongoDB ObjectId validation');
+
+// Example schema
+const schema = Joi.object({
+  id: objectIdValidation.required(),
+});
+
+// Example data
+const validData = { id: new ObjectId() }; // Valid ObjectId
+const invalidData = { id: "12345" }; // Invalid ObjectId
+
+// Validate valid data
+const validResult = schema.validate(validData);
+console.log('Valid result:', validResult.error ? validResult.error.details : 'Valid!');
+
+// Validate invalid data
+const invalidResult = schema.validate(invalidData);
+console.log('Invalid result:', invalidResult.error ? invalidResult.error.details : 'Valid!');

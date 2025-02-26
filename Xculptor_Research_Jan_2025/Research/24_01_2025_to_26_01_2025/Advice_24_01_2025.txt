@@ -1,0 +1,10 @@
+1) Express-Validator as a separate middleware
+2) Middleware to do validation
+
+3) Create multiple checks depending on route. Each router having multiple checks
+4) ValidateUsername, ValidateId,
+
+5) Create a middleware called result. This means that whenever the array isn't empty, then the error goes to error handler, otherwise result goes to the respective controller
+6) CheckSchema() takes array. 5 different checks for different routes. Create Arrays of checks 
+Create a different schema and a middleware for each schema 3
+3 middlewares for each route.

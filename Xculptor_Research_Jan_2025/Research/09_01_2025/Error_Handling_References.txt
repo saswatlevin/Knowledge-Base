@@ -1,0 +1,2 @@
+https://www.morling.dev/blog/whats-in-a-good-error-message/
+https://dev.to/olanetsoft/global-error-handling-in-node-js-52jp

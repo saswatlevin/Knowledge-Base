@@ -1,0 +1,3 @@
+Pay max (199, X) -> if X > 199 -> X else 199 
+When user based pricing is up to 199, you pay 199
+When user based pricing is above $199, then you have to pay $199 + user based pricing

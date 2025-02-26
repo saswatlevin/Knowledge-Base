@@ -1,0 +1,21 @@
+https://www.crowdstrike.com/en-us/cybersecurity-101/observability/error-logs/
+https://github.com/winstonjs/winston/
+https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-pino-to-log-node-js-applications/
+https://getpino.io/
+
+https://www.dataset.com/blog/the-10-commandments-of-logging/
+https://www.exabeam.com/explainers/log-management/top-6-log-management-tools-and-how-to-choose/
+https://betterstack.com/community/guides/logging/logging-best-practices/
+https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
+
+[1] https://www.crowdstrike.com/en-us/cybersecurity-101/observability
+[2] https://github.com/winstonjs/winston/
+[3] https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
+[4] https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-pino-to-log-node-js-applications/
+[5] https://betterstack.com/community/guides/logging/morgan-logging-nodejs/
+
+
+[1] https://www.youtube.com/watch?v=Hqn5p67uev4 [ELK Stack Overview]
+[2] https://www.youtube.com/watch?v=5ofsNyHZwWE [FluentD Simply Explained]
+[3] https://grafana.com/docs/loki/latest/get-started/overview/
+[4] https://opsverse.io/2024/07/26/grafana-loki-vs-elk-stack-for-logging-a-comprehensive-comparison/

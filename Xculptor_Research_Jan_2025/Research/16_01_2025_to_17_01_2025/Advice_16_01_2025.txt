@@ -1,0 +1,16 @@
+Develop the Prototype:
+According to me, the prototype should have the following fields:
+* firstName
+* lastName
+* dateOfBirth
+* email
+* username
+* password
+* phoneNumber
+
+All format validation is to be done by express-validator, before request reaches mongoose.
+Sanitisation for XSS is to be done by ?? library.
+
+Put field level error messages on the built-in validator.
+"677ad0782cb757a928ece3be"
+https://howtodevez.medium.com/using-express-validator-for-data-validation-in-nodejs-6946afd9d67e

@@ -1,0 +1,13 @@
+1) Name
+2) Age  
+3) isRegistered
+4) Email
+5) Phone Number
+6) Password
+7) Address
+8) Date of Birth
+9) UserID
+
+What to Check For:
+1) Whether custom error messages can be returned.
+2) Whether POST requests can be validated.

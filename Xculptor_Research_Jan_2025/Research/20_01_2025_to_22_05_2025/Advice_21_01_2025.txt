@@ -1,0 +1,32 @@
+Exception -> If the operation doesn't have the excepted result.
+One of the exception types is Error.
+Any function O/P that is unexpected is an exception.
+Any unexpected I/P to a function 
+Any function behavior that is unexpected is a warning.
+
+When we are expecting an O/P from a function ->
+1) I get an O/P -> O/P can come in a particular form / time. There are some conditions for the output that're not being met. 
+
+If the exception is of type warning, then we continue to run and still send the output to the customer.
+If something hasn't been tagged as an error, what do we do?
+When do I log an info ? When do i log an error ? When do I log a warning?
+
+DEF:
+Every instance of running of a function -> info.
+Info -> By default, records everything. If any deviations are there, those will also be recorded as a warning.
+
+1) How and when I should log an info,; how and when I should log a warning; How and when I should log an error?
+2) 3 appropriate middlewares for each fn -> info, error and warning.
+3) In case of info and warning, we keep running the program, 
+
+A mock controller function that monitors the entire program and decides when to log warning, info and error.
+
+
+
+
+Avg Response Times
+createUser -> 39ms -> 50ms
+getUserById -> 37ms -> 50ms
+getUserByName -> 32ms -> 46ms
+getAllUsers -> 40ms -> 50ms
+pageRequest -> 2ms -> 10ms

@@ -1,0 +1,25 @@
+{
+  "status": 500,
+  "message": "User validation failed: username: Path `username` is required.",
+  "error_object": {
+    "errors": {
+      "username": {
+        "name": "ValidatorError",
+        "message": "Path `username` is required.",
+        "properties": {
+          "message": "Path `username` is required.",
+          "type": "required",
+          "path": "username",
+          "value": ""
+        },
+        "kind": "required",
+        "path": "username",
+        "value": ""
+      }
+    },
+    "_message": "User validation failed",
+    "statusCode": 500,
+    "name": "ValidationError",
+    "message": "User validation failed: username: Path `username` is required."
+  }
+}

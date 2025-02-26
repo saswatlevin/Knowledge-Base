@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=7i7xmwowwCY (Express-Validator NodeJS Tutorial)
+https://www.youtube.com/watch?v=nzSAf5cVyWY (Express JS #9)
+https://www.youtube.com/watch?v=4ugw5yRwhR0 (Express JS #10)
+https://www.youtube.com/watch?v=hE5zeEiVqpw (Express Session + Express Validator -> Academind)
+https://www.youtube.com/watch?v=N4GHLaCSXUg (Adding Data Validation Using express-validator)
+https://www.youtube.com/watch?v=1nqhWys0Jq8 (Making Authentication API | Validation of request body with express validator | _letsbug)
+
+https://stackoverflow.com/questions/1423195/what-is-the-actual-minimum-length-of-an-email-address-as-defined-by-the-ietf (Email Address Minimum Length)
+
+https://stackoverflow.com/questions/9807909/are-email-addresses-case-sensitive [Case sensitivity in email addresses.]
+
+https://github.com/Automattic/mongoose/issues/8939 [Date Objects are converted to String]
+
+https://stackoverflow.com/questions/40010324/how-to-store-mongoose-value-as-a-date [Storing Date in MongoDB]
+
+https://howtodevez.medium.com/using-express-validator-for-data-validation-in-nodejs-6946afd9d67e
+
+https://auth0.com/blog/express-validator-tutorial/
+
+https://stackoverflow.com/questions/48720942/node-js-joi-how-to-display-a-custom-error-messages
+
+https://joi.dev/api/?v=17.13.3
+
+https://github.com/hapijs/joi/issues/898
+
+https://stackoverflow.com/questions/66054067/how-do-i-add-custom-validators-in-joi-17
+
+https://stackoverflow.com/questions/13104690/node-js-mongodb-objectid-to-string
+
+
+https://stackoverflow.com/questions/20988446/regex-for-mongodb-objectid
+https://stackoverflow.com/questions/71368993/how-to-send-joi-validation-error-in-api-response
+https://medium.com/@megha.d.parmar2018/a-guide-to-streamlined-validation-and-error-management-with-joi-and-express-validator-98430fda0f5c

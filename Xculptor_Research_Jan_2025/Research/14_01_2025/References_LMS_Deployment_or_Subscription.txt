@@ -1,0 +1,41 @@
+https://docs.datadoghq.com/getting_started/application/
+https://docs.datadoghq.com/getting_started/application/#log-management
+https://docs.datadoghq.com/logs/
+https://docs.datadoghq.com/logs/explorer/
+https://docs.datadoghq.com/logs/log_collection/nodejs/?tab=winston30
+
+https://docs.datadoghq.com/getting_started/agent/
+https://docs.datadoghq.com/agent/guide/why-should-i-install-the-agent-on-my-cloud-instances/
+
+https://docs.datadoghq.com/opentelemetry/
+https://docs.datadoghq.com/opentelemetry/interoperability/otlp_ingest_in_the_agent/?tab=host
+https://docs.datadoghq.com/metrics/open_telemetry/otlp_metric_types/?tab=sum
+
+https://docs.datadoghq.com/opentelemetry/collector_exporter/deployment/?tab=localhost
+https://www.youtube.com/watch?v=Js06FTU3nXo
+
+Datadog Fundamentals Playlist -> https://www.youtube.com/watch?v=7cxDnk3Sjyc&list=PLDhScTEBdP8wLAf9lQFtmEQh6G7bvBKW2
+
+
+* https://medium.com/@ddiscua/sending-logs-from-nodejs-to-datadog-using-winston-4c1f07874d8e
+* https://www.datadoghq.com/blog/node-logging-best-practices/
+*RD https://docs.datadoghq.com/logs/log_collection/nodejs/?tab=winston30
+* https://docs.datadoghq.com/integrations/node/
+=====================================================================================================
+
+[1] https://docs.datadoghq.com/logs/
+[2] https://docs.datadoghq.com/logs/log_collection/?tab=application
+[3] https://docs.datadoghq.com/logs/log_collection/nodejs/?tab=winston30
+[4] https://www.datadoghq.com/blog/node-logging-best-practices/
+[5] https://docs.datadoghq.com/integrations/node/
+[6] https://docs.datadoghq.com/agent/logs/?tab=tailfiles#activate-log-collection
+
+ttps://www.datadoghq.com/dg/logs/log-viewer
+
+=====ELK=====
+https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elastic-stack-on-ubuntu-20-04
+https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04
+https://www.elastic.co/guide/en/cloud/current/ec-getting-started-search-use-cases-node-logs.html
+https://www.fosstechnix.com/forward-logs-to-grafana-loki-using-promtail/
+https://grafana.com/docs/grafana/latest/setup-grafana/installation/
+https://grafana.com/docs/loki/latest/setup/install/local/

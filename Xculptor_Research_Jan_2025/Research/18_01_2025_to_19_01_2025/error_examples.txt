@@ -1,0 +1,200 @@
+"error_stack": "SyntaxError: Expected ',' or '}' after property value in JSON at position 35 (line 4 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\saswa\\Node_Project\\src\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"
+
+{
+  "status": 400,
+  "message": "Error in validating username",
+  "errorsArray": [
+    {
+      "type": "field",
+      "value": "IH/*",
+      "msg": "Username can contain only alphabets and numbers",
+      "path": "username",
+      "location": "body"
+    }
+  ],
+  "error_object": {
+    "statusCode": 400,
+    "status": "Operational Error",
+    "errorsArray": [
+      {
+        "type": "field",
+        "value": "IH/*",
+        "msg": "Username can contain only alphabets and numbers",
+        "path": "username",
+        "location": "body"
+      }
+    ],
+    "isOperational": true,
+    "isValidationChain": true
+  },
+  "error_stack": "Error: Error in validating username\n    at C:\\Users\\saswa\\Node_Project\\src\\Controllers\\usersController.js:81:32\n    at C:\\Users\\saswa\\Node_Project\\src\\Utilities\\asyncErrorHandler.js:3:9\n    at Layer.handle [as handle_request] (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at middleware (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
+
+
+{
+  "status": 400,
+  "message": "Unexpected token '}', ...\"  \"age\": \n}\" is not valid JSON",
+  "error_object": {
+    "expose": true,
+    "statusCode": 400,
+    "status": 400,
+    "body": "{\n  \"username\":\"IH/*\",\n  \"age\": \n}",
+    "type": "entity.parse.failed"
+  },
+  "error_stack": "SyntaxError: Unexpected token '}', ...\"  \"age\": \n}\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\saswa\\Node_Project\\src\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"
+}
+
+
+/** Uncaught SyntaxError for age: B**/
+SyntaxError: Unexpected token 'B', ..."
+  "age": B
+}" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\saswa\Node_Project\src\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\saswa\Node_Project\src\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\saswa\Node_Project\src\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\saswa\Node_Project\src\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\saswa\Node_Project\src\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+{
+  status: undefined,
+  message: 'querySrv ECONNREFUSED _mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net',
+  error_object: Error: querySrv ECONNREFUSED _mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17) {
+    errno: undefined,
+    code: 'ECONNREFUSED',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net'
+  },
+  error_stack: 'Error: querySrv ECONNREFUSED _mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17)'
+}
+
+// Run with 'name' print
+{
+  status: undefined,
+  message: 'querySrv ECONNREFUSED _mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net',
+  name: 'Error',
+  errno: undefined,
+  error_object: Error: querySrv ECONNREFUSED _mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net
+      at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17) {
+    errno: undefined,
+    code: 'ECONNREFUSED',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net'
+  },
+  error_stack: 'Error: querySrv ECONNREFUSED _mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17)'
+}
+
+// Run from try catch block w/o error object.
+{
+  status: undefined,
+  message: 'querySrv ECONNREFUSED _mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net',
+  name: 'Error',
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net',
+  error_stack: 'Error: querySrv ECONNREFUSED _mongodb._tcp.firstnodejsappdb.h82ik.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17)'
+}
+
+
+{
+  "status": 500,
+  "message": "User validation failed: age: Must not be greater than 122. It is currently 123",
+  "error_object": {
+    "errors": {
+      "age": {
+        "name": "ValidatorError",
+        "message": "Must not be greater than 122. It is currently 123",
+        "properties": {
+          "message": "Must not be greater than 122. It is currently 123",
+          "type": "max",
+          "max": 122,
+          "path": "age",
+          "value": 123
+        },
+        "kind": "max",
+        "path": "age",
+        "value": 123
+      }
+    },
+    "_message": "User validation failed",
+    "statusCode": 500,
+    "name": "ValidationError",
+    "message": "User validation failed: age: Must not be greater than 122. It is currently 123"
+  },
+  "error_stack": "ValidationError: User validation failed: age: Must not be greater than 122. It is currently 123\n    at Document.invalidate (C:\\Users\\saswa\\Node_Project\\src\\node_modules\\mongoose\\lib\\document.js:3331:32)\n    at C:\\Users\\saswa\\Node_Project\\src\\node_modules\\mongoose\\lib\\document.js:3092:17\n    at C:\\Users\\saswa\\Node_Project\\src\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)"
+
+
+{"message":"Hello","name":"SyntaxError"}
+error_stack  SyntaxError: Hello
+    at errorThrower (C:\Users\saswa\Node_Project\src\Experiments\errorThrower.js:3:15)
+    at Object.<anonymous> (C:\Users\saswa\Node_Project\src\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1740:14)
+    at Object..js (node:internal/modules/cjs/loader:1905:10)
+    at Module.load (node:internal/modules/cjs/loader:1474:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47
+
+{"message":"The argument must be between -500 and 500.","name":"RangeError"}
+error_stack  RangeError: The argument must be between -500 and 500.
+    at errorThrower (C:\Users\saswa\Node_Project\src\Experiments\errorThrower.js:7:19)
+    at Object.<anonymous> (C:\Users\saswa\Node_Project\src\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1740:14)
+    at Object..js (node:internal/modules/cjs/loader:1905:10)
+    at Module.load (node:internal/modules/cjs/loader:1474:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47
+
+{"message":"beta is not defined","name":"ReferenceError"}
+error_stack  ReferenceError: beta is not defined
+    at errorThrower (C:\Users\saswa\Node_Project\src\Experiments\errorThrower.js:11:21)
+    at Object.<anonymous> (C:\Users\saswa\Node_Project\src\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1740:14)
+    at Object..js (node:internal/modules/cjs/loader:1905:10)
+    at Module.load (node:internal/modules/cjs/loader:1474:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47
+
+{"message":"Cannot read properties of null (reading 'f')","name":"TypeError"}
+error_stack  TypeError: Cannot read properties of null (reading 'f')
+    at errorThrower (C:\Users\saswa\Node_Project\src\Experiments\errorThrower.js:14:14)
+    at Object.<anonymous> (C:\Users\saswa\Node_Project\src\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1740:14)
+    at Object..js (node:internal/modules/cjs/loader:1905:10)
+    at Module.load (node:internal/modules/cjs/loader:1474:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47
+
+{"message":"URI malformed","name":"URIError"}
+error_stack  URIError: URI malformed
+    at decodeURIComponent (<anonymous>)
+    at errorThrower (C:\Users\saswa\Node_Project\src\Experiments\errorThrower.js:17:9)
+    at Object.<anonymous> (C:\Users\saswa\Node_Project\src\server.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1740:14)
+    at Object..js (node:internal/modules/cjs/loader:1905:10)
+    at Module.load (node:internal/modules/cjs/loader:1474:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)

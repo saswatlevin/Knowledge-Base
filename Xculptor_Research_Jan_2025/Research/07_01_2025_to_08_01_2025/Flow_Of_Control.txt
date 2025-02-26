@@ -1,0 +1,18 @@
+Request -> Route -> API -> URL Validator 
+             |                |
+             |             ObjectID Validator
+             |                |
+             |             Controller Function
+             |                |
+             |             MongoDB Schema Validator
+             |                |
+             |             MongoDB
+             |
+             |
+             |
+             |----------------> Page-> URL Validator
+                                          |
+                                      Check for Page (File) Existence
+                                          |
+                                      Serve Page             
+         

@@ -1,0 +1,23 @@
+https://mongoosejs.com/docs/5.x/docs/validation.html
+https://stackoverflow.com/questions/28710345/sanitize-user-input-in-mongoose
+https://stackoverflow.com/questions/15627967/why-mongoose-doesnt-validate-on-update
+https://stackoverflow.com/questions/30585213/do-i-need-to-sanitize-user-input-before-inserting-in-mongodb-mongodbnode-js-co
+https://rixong.medium.com/securing-an-express-mongodb-mongoose-api-9e7d48731491
+https://thecodebarbarian.wordpress.com/2014/09/04/defending-against-query-selector-injection-attacks/
+https://thecodebarbarian.com/thoughts-on-user-passwords-in-rest-apis.html
+https://thecodebarbarian.com/whats-new-in-mongoose-6-sanitizefilter.html
+
+
+[1] https://www.strongdm.com/what-is/nosql-injection
+[2] https://thecodebarbarian.com/whats-new-in-mongoose-6-sanitizefilter.html
+[3] https://www.comparitech.com/net-admin/json-injection-guide/
+[4] https://mongoosejs.com/docs/validation.html
+
+Summary of Built-in Format Validators:
+Type: Validates data type.
+Required: Ensures presence of a value.
+Min/Max: Numeric range validation.
+MinLength/MaxLength: String length validation.
+Match: Regex-based validation.
+Enum: Restricts values to a set of options.
+Unique: Ensures uniqueness at the database level.

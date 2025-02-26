@@ -1,0 +1,4 @@
+https://www.turing.com/kb/how-to-master-express-js-error-handling
+https://www.geeksforgeeks.org/how-to-create-custom-error-handler-middleware-in-express/
+https://www.youtube.com/watch?v=WXa1yzLR3hw (Custom Error Handling Class with Global Error Middleware)
+https://www.youtube.com/watch?v=BZPrK1nQcFI (Async Error Handling)

@@ -1,0 +1,19 @@
+Create a elaborate CustomError function that should ask for the Function
+When a custom error is thrown, then it should capture (Function, User, FileName, Session, Timestamp)
+
+What all do we need to capture when throwing an error.
+Error should be logged automatically when it is thrown.
+Ensure that we don't have to manually log errors in each function.
+
+1) The logging of error should happen at one place.
+2) When logging an error we should have the following data: (Function, User, FileName, Session, Timestamp, etc).
+3) Clear definition of when to log an error and when to not log an error -> DONE
+
+Whenever there is an error, it is handled in the error handler -> error log entry -> response to user.
+
+Error -> Error class of JS -> CustomError
+Look at what to handle and what not to handle.
+
+4)The logger should not be open ended. Middleware to do standarsized logging and should be more scalable and not dependednt on manual log entries.
+5) Info-related response messages have to be standardized. Eg - Collections, Showcases (2 different controllers written by 2 different programmers -> Middleware.) 
+

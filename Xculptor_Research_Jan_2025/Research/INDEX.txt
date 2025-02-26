@@ -1,0 +1,45 @@
+02 Jan -> API Design, 3D_Configurators, Ecommerce, Induction, Advice, References
+
+03 Jan -> APIs for the website, Advice, Express_API_References
+
+04 Jan -> Advice
+
+06 Feb -> Work_On_06_02_2025.txt, Advice
+
+7/8 Jan -> Api FLowchart, CGPT_List_Of_Mongoose_Validators, Error flowchart, Flow_Of_Control.txt, MongoDB Update with upsert, References_validation, Schema_Validator_Library_Comparisons, sample_error, Advice
+
+09 Jan -> Data Types, Express Validator, Request_Body_Validation, Error_Handling_References, References - Express Validator, Advice
+
+10 Jan -> Error Logging, Log4js Example, Logging_References, References, Winston Example, Secure Use of Mongoose, Advice
+
+11/12 Jan ->  Error Logging, Log Management Systems, Log Management Best Practices, Logging References, Advice
+
+13 Jan -> Logging_References, Advice
+
+14 Jan -> DataDog - All About, ELK Installation - Ubuntu, Install Grafana.txt. Log Management Systems, References_LMS_Deployment_or_Subscription, Advice
+
+15 Jan -> Dynatrace_References, Issue_15_01_2025.txt, Signoz - All About, Signoz_Payment, Signoz_References, Telemetry - All About, Telemetry_References, Advice
+
+16/17 Jan -> Global_Rejected_Promise_Handler, advice_16_01_2025, New API Flow Chart, Programming Approach Discussion, References, Advice 
+
+18/19 Jan -> Comprehensive Review of the Error Class, Error Handling Architecture, error_examples, error_experiments, References, Updated - Comprehensive Review of The Error Class, Advice
+
+20/22 Jan -> Classification of Log Levels in Our Context, Error Handling Architecture, Logging Levels in Detail and Miscellany, Metrics to be Measured, References - HTTP Request Monitoring Middleware, References - Profiling, Request Flowchart, response handling middlewares, Understanding Response Interceptors, Advice
+
+23 Jan -> References - Validators, Request Flowchart, 2 Screenshots, Advice
+
+24/26 Jan -> Express_JS_#10, Crude_Validation_Logic_Flowchart, Express JS #10 (Anson The Developer), Express JS #9 - Middleware, Express-Validator Middleware, Express-Validator NodeJS Tutorial, Reason For Putting Express Validator Function Inside The Route, References_Express_JS_As_Middleware, Advice
+
+27 Jan -> cf005.txt, create_user_response.txt, jois_array_schema_validation.js, joi_mongoid_custom_validator.txt, joi_way_to_validate_array_of_objects, References, Technical_Work_To_Be_Completed
+
+28 Jan -> 
+
+ 
+
+
+
+
+
+
+
+ 

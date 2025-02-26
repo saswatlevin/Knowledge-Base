@@ -1,0 +1,2 @@
+https://www.freecodecamp.org/news/how-to-simplify-database-operations-using-mysql-stored-procedures/
+https://stackoverflow.com/questions/1151255/mysql-stored-procedure-vs-complex-query

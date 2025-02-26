@@ -1,0 +1,7 @@
+https://expressjs.com/id/resources/middleware/response-time.html
+https://nodejs.org/api/perf_hooks.html
+https://nodejs.org/api/events.html#events
+https://nodejs.org/en/learn/getting-started/profiling
+
+https://dev.to/bearer/measuring-performance-in-node-js-with-performance-hooks-585p
+https://www.nearform.com/insights/tracking-memory-allocation-node-js/

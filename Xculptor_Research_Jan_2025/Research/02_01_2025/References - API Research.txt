@@ -1,0 +1,27 @@
+https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/
+https://swagger.io/resources/articles/best-practices-in-api-design/
+https://medium.com/@techsuneel99/api-design-from-basics-to-best-practices-da47c63aaf70
+https://apistylebook.com/
+https://swagger.io/blog/api-documentation/best-practices-in-api-documentation/
+
+API Documentation, API File Structure, API Examples, Error Handling,
+API Itself -> How to write good api? What are the best practices to write API
+Authentication & Authorisation, Pre-required token, Headers, 
+Have entire middleware ready for error handling.
+
+List all technical aspects that me write a good api.
+Authentication Library, Header Library, Error Library
+
+1) Libraries and middleware that are essential for writing APIs. {} -> Authentication, User Management, etc.
+2) How to write APIs -> Steps for doing that (How to use the libraries to write APIs)
+3) Documenting the APIs -> Documentation Framework, Best Practices, Self-Help for the users, try now (examples), sample cases.
+
+We will go deeper in to 1) and 2)
+Eg - Error Handling Module built on top of the error handling library should feed into error'
+Authentication Module
+Session-Handling Module.
+Analytics Module.
+Device Settings
+Timeout Management
+All of them should help us in writing APIs.
+Make an exhaustive list of such API libraries in Node and Express.

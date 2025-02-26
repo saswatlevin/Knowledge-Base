@@ -1,0 +1,8 @@
+https://expressjs.com/en/4x/api.html#app.METHOD
+https://expressjs.com/en/guide/error-handling.html
+https://www.topcoder.com/thrive/articles/authentication-and-authorization-in-express-js-api-using-jwt
+https://buttercms.com/blog/express-js-error-handling/
+
+https://stackoverflow.com/questions/39092822/how-to-confirm-email-address-using-express-node
+https://dev.to/saint_vandora/how-to-implement-session-management-in-nodejs-applications-5emm
+

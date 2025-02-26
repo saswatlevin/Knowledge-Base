@@ -1,0 +1,17 @@
+https://lioncoding.com/logging-in-express-js-using-winston-and-morgan/
+https://stackoverflow.com/questions/35716058/is-there-any-way-to-monitor-every-response-in-express-js
+https://ganeshkbhat.medium.com/expressjs-series-how-can-i-implement-before-and-after-middlewares-13da90892d72
+https://medium.com/@horacodementor/how-to-read-stacktraces-in-javascript-4632b6023f03
+https://harrymoreno.com/2017/02/25/how-to-read-a-javascript-stack-trace.html
+
+https://stackoverflow.com/questions/19215042/express-logging-response-body
+
+
+[1] https://expressjs.com/en/guide/writing-middleware.html#writing-middleware-for-use-in-express-apps
+[2] https://www.geeksforgeeks.org/how-to-intercept-response-send-response-json-in-express-js/
+[3] https://medium.com/@navneetskahlon/express-request-response-cycle-and-middleware-with-code-examples-5b01c81b3322
+[4] https://nodejs.org/api/http.html#event-finish
+[5] https://betterstack.com/community/questions/error-cant-sent-headers-after-they-are-sent-to-client/
+[6] https://brianchildress.co/calculating-node-api-response-time/
+[7] https://www.sheshbabu.com/posts/measuring-response-times-of-express-route-handlers/
+[8] https://expressjs.com/id/resources/middleware/response-time.html

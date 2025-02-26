@@ -1,0 +1,42 @@
+https://www.crowdstrike.com/en-us/cybersecurity-101/observability/error-logs/
+https://github.com/winstonjs/winston/
+https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-pino-to-log-node-js-applications/
+https://getpino.io/
+
+https://www.dataset.com/blog/the-10-commandments-of-logging/
+https://www.exabeam.com/explainers/log-management/top-6-log-management-tools-and-how-to-choose/
+https://betterstack.com/community/guides/logging/logging-best-practices/
+https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
+
+[1] https://www.crowdstrike.com/en-us/cybersecurity-101/observability
+[2] https://github.com/winstonjs/winston/
+[3] https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/
+[4] https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-pino-to-log-node-js-applications/
+[5] https://betterstack.com/community/guides/logging/morgan-logging-nodejs/
+
+
+[1] https://www.youtube.com/watch?v=Hqn5p67uev4 [ELK Stack Overview]
+[2] https://www.youtube.com/watch?v=5ofsNyHZwWE [FluentD Simply Explained]
+[3] https://grafana.com/docs/loki/latest/get-started/overview/
+[4] https://opsverse.io/2024/07/26/grafana-loki-vs-elk-stack-for-logging-a-comprehensive-comparison/
+[5] https://docs.fluentd.org/quickstart
+
+https://www.conducivesi.com/about-splunk/log-management
+https://www.splunk.com/en_us/blog/learn/log-analysis.html
+https://www.fortinet.com/resources/cyberglossary/what-is-splunk
+https://www.conducivesi.com/about-splunk/log-management
+
+SPLUNK METRICS
+Real-Time Log Monitoring -> [SPLUNK [Log Observer Connect]; https://docs.splunk.com/observability/en/logs/intro-logconnect.html; https://www.youtube.com/watch?v=OBHtu285aqE]
+Alerting Mechanisms -> [SPLUNK [Log Events]; https://docs.splunk.com/Documentation/Splunk/latest/Alert/LogEvents; Not Available in Splunk Free.]
+Log Data Analysis -> [SPLUNK [Search Processing Language]  https://www.conducivesi.com/about-splunk/features; https://www.splunk.com/en_us/products/splunk-enterprise-features.html]
+Dashboards -> [SPLUNK [Dashboard] https://docs.splunk.com/Documentation/Splunk/latest/DashStudio/CreateDash]
+Integration with Winston -> [winston-splunk-httplogger]
+
+
+ELK Stack
+Real-Time Log Monitoring -> [https://moldstud.com/articles/p-how-does-logstash-handle-log-file-monitoring-for-developers]
+Alerting Mechanisms -> [https://www.elastic.co/guide/en/kibana/current/kibana-alerts.html]
+Data Analysis -> []
+Dashboards
+Integration with Winston

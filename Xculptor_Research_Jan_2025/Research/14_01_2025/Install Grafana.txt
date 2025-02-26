@@ -1,0 +1,12 @@
+Install Grafana
+Start & Enable Grafana
+Downoad & Install Loki & edit its config file.
+Give the alert manager your public ip address.
+We need to create a system service file for loki to manage its execution.
+Stop & restart systemd.
+Enable the Loki systemd service
+Start loki
+
+Do the above for promtail
+Select Loki as a data source on Grafana.
+

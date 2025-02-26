@@ -1,0 +1,13 @@
+We have to check whether mongoose will run the validation on findOne(), findOneAndUpdate(), updateOne(), updateMany() ?
+The most important criteria for logging library:
+Logs and Log Management System:
+1) What All can I Log
+2) Where can I log
+3) Storing in DB vs. file
+4) Analysis and storage
+
+
+What I Have To Do:
+1) Find out the answers to the 3 questions for Winston, Pino and Morgan
+2) Find out whether ELK, Graylog, Fluentd, Grafana Loki are compatible with the above 3 and make a table.
+3) Read About Logging Best Practices

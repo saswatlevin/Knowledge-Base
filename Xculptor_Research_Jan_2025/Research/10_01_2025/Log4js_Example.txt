@@ -1,0 +1,40 @@
+const log4js = require('log4js');
+
+// Configure log4js
+log4js.configure({
+  appenders: {
+    console: { type: 'console' }, // Log to the console
+    file: { type: 'file', filename: 'app.log' } // Log to a file
+  },
+  categories: {
+    default: { appenders: ['console', 'file'], level: 'info' } // Default level is 'info'
+  }
+});
+
+// Create a logger instance
+const logger = log4js.getLogger();
+
+// Usage
+logger.error('This is an error message'); // Logs to both console and file
+logger.warn('This is a warning message'); // Logs to both console and file
+logger.info('This is an info message'); // Logs to both console and file
+Explanation
+Configuration:
+
+The appenders define where the logs will be sent.
+console: Logs to the console.
+file: Logs to a file named app.log.
+The categories define the default logging level and which appenders to use.
+default: Uses both console and file appenders, with a minimum level of info.
+Logger Levels:
+
+error: Used for logging errors.
+warn: Used for warnings.
+info: Used for informational messages.
+Usage:
+
+Call the logger's methods (error, warn, info) to log messages at the respective levels.
+Output:
+
+All logs will appear in both the console and the app.log file.
+If you need further customization or additional levels, let me know!

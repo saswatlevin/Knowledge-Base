@@ -1,0 +1,28 @@
+We have a large number of objects -> Eg - Icons, banners, images, etc.
+                                     Eg - 3D Objects -> .GLB Files [In Object Server].
+1) What kind of validation we need for 3D Objects and images, banners, etc?
+2) What are the network related validations ? -> Authenticate, Authorise
+Eg -> A) Request for data point / URL which the user hasn't authorised
+      B) File Not Found (404), Invalid Path
+      C) Server is unreachable (Connection Issue)
+
+Find libraries / resources to take care of handling these kinds of errors -> Add to flowchart.
+Separate discussion on authorisation -> Business Logic
+Eg - A brand has a 3D asset on our website, and they are integrating that into their website and their backend will send a request to ours to access that. That 3D asset should only be made available to that brand.
+
+=============LOGS==================
+Error Logging, Info Logging -> Logging libraries.
+Best practices for logging
+=============LOGS==================
+
+=============LOG MGMT SYSTEM=======
+LMS -> Create dashboards from logs.
+Eg - Health Dashboard, N/W Dashboard, S/W Dashboard.
+Alarms and Notifications for errors and error tracking.
+Libraries for these.
+=============LOG MGMT SYSTEM=======
+
+My Initiative:
+1) Look into the exact process of Mongoose validation
+2) Look into the purpose for request validation
+3) Look into handling operational vs. non-operational errors and error messages.

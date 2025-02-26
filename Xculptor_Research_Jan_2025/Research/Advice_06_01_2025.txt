@@ -1,0 +1,26 @@
+// Is there any other way in which we can add async error?
+// 1) Define the controller separately and then add the middleware ()
+// 2) Error message 
+
+// A) Categorize the errors [5 to 7 categories] -> Figure the types of errors that are possible.
+// Sometimes the error is identified before hand -> Eg - Before creating a record.
+// For every category of error, we are getting errors and codes. Modify the error message into a 
+// B) Eg - Data Write Mismatch, Duplicate Data, No Data Found, Validation (MongoDB)
+      // Eg - User is not logged in, User Session, Connection is lost
+
+// A) * Where are we throwing an error    (Identifying and Categorizing error)  
+// Error Management Module -> First Where are we identifying the error
+// If we get a request, we need to see if is valid. If not, throw an error.
+
+// B) * What are the status code and message that is sent to the middleware (What is being given to middleware)
+// C) * What should we communicate to the user
+
+// A) Categorize and Identify errors. Find where errors are being identified.
+// B) Decide what is being given to middleware
+// C) Communicate appropriate error message to user
+
+/** How is this Scalable -> Add more categories. Eg - Add load balancing error, error from source , 
+ * error types and codes stored as json*/
+
+
+677a82d4c6b58d369c6f165e

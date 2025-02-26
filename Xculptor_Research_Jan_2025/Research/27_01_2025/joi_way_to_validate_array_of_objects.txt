@@ -1,0 +1,26 @@
+const Joi = require('joi');
+
+// Define schema for individual objects
+const objectSchema = Joi.object({
+  name: Joi.string().required(),
+  age: Joi.number().integer().min(0).required(),
+  email: Joi.string().email().required(),
+});
+
+// Define array schema
+const arraySchema = Joi.array().items(objectSchema).min(1); // Ensures at least one object
+
+// Sample data
+const data = [
+  { name: 'Alice', age: 25, email: 'alice@example.com' },
+  { name: 'Bob', age: 30, email: 'bob@example.com' },
+];
+
+// Validate
+const { error, value } = arraySchema.validate(data);
+
+if (error) {
+  console.log('Validation Error:', error.details);
+} else {
+  console.log('Valid Data:', value);
+}

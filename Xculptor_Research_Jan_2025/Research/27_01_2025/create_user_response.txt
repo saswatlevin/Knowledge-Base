@@ -1,0 +1,9 @@
+{
+  "username": "11A5A11",
+  "age": 59,
+  "firstname": "Soyuz",
+  "lastname": "Rocket",
+  "email": "syz1966@domain.com",
+  "_id": "679799433cb46a1ae7bb0759",
+  "__v": 0
+}

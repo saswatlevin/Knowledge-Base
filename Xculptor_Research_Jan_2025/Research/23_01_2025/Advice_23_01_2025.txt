@@ -1,0 +1,27 @@
+1) Express-Validator
+2) Request Validator
+3) Mongoose Validator
+4) Response Validator
+
+These are the 4 points at which the requests and responses will be validated.
+Exception Handling -> Any of these 4 validators can trigger an error.
+In all of thse 4, when will it get triggered
+1) Logging and and raising an error.
+
+1) {username: "Value"}
+2) {"username": "Value", "age": 10}
+
+validator-middleware -> It will identify the controller function through the route
+This will allow it to identify the correct type of request body that that request should have and accordingly, it will apply the validators. If validation fails, valchain error will be thrown.
+
+Controller should do only control function.
+
+1) Identifying Events 
+2) We will be checking execution times for nodejs function
+3) We will be measuring cpu use, memory use
+4) disk space -> diskusage
+5) response-time -> Response time of the responses from the controllers (response-time package and it will be wrapped around the controllers)
+
+
+
+Controller will only do business.

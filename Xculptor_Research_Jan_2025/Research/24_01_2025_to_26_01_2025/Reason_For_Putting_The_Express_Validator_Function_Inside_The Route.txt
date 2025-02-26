@@ -1,0 +1,7 @@
+In express-validator, the validation functions are typically specified inside the route because they are middleware functions. These middleware functions process the request before it reaches the route handler, ensuring that the incoming data meets the specified validation criteria.
+
+However, you don't have to define the validation functions directly inside the route. You can separate them into reusable, modular functions to make your code cleaner and more maintainable.
+
+Why Specify Validation in the Route?
+Middleware Order: Validation functions in express-validator are middleware that must be executed before the route handler. Placing them in the route ensures they run in the correct order.
+Context-Specific Validation: Validation requirements often depend on the route (e.g., creating a user vs. updating a user). Including validation in the route makes it clear and specific.

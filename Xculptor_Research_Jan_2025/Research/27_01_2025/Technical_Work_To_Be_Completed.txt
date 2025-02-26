@@ -1,0 +1,9 @@
+Technical work to be completed:
+1) Fix the response validator.
+1a) Document all the APIs
+1b) Create a detailed programmatic flowchart of the entire program.
+1c) Update the list of error codes in the remediation messages database.
+1d) Fix file name and function name assignments in error log entries.
+2) Add XSS sanitizers to all the validators of express-validator.
+3) Add response time measurements and create warning log entries based on them.
+4) Add MongoSanitizer() to sanitize against NoSQL Attacks.

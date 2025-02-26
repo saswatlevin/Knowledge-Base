@@ -1,0 +1,13 @@
+The ValidationRequest function checks if the validators have returned any errors or not.
+The express.json() middleware parses the JSON request body. It does this by converting the string request body to a JS object.
+Without loading the express.json() middleware, express-validator will throw errors since it can't work with a string request body.
+The exists() validator merely checks if a field contains an undefined value. It has checkFalsy and the checkNull options. The former checks only if a value is null, the latter checks if a value is undefined, null or false or 0.
+
+The validateRequestSchema function middleware validates the request body using validationResult() and throws an error (with the errors.array()) if validation fails.
+
+The schema can be kept in a separate file.
+
+Pass the schema and schemaValidation middleware to the route.  
+
+a@xyz.com -> 9
+abc@xyz.com -> 11

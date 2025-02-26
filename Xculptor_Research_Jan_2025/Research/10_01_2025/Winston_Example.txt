@@ -1,0 +1,36 @@
+// Import the winston library
+const winston = require('winston');
+
+// Create a logger instance
+const logger = winston.createLogger({
+    levels: {
+        error: 0,
+        warn: 1,
+        info: 2
+    },
+    format: winston.format.combine(
+        winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
+        winston.format.printf(({ level, message, timestamp }) => {
+            return `${timestamp} [${level.toUpperCase()}]: ${message}`;
+        })
+    ),
+    transports: [
+        // Write all logs to console
+        new winston.transports.Console({
+            level: 'info', // Adjust this to the minimum level to log to console
+        }),
+        // Write error and warn logs to a file
+        new winston.transports.File({
+            filename: 'errors.log',
+            level: 'warn', // Minimum level to log to file
+        })
+    ]
+});
+
+// Export the logger for use in other modules
+module.exports = logger;
+
+// Example usage
+logger.error('This is an error message');
+logger.warn('This is a warning message');
+logger.info('This is an info message');

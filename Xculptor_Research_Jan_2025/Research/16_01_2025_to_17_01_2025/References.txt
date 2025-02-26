@@ -1,0 +1,17 @@
+https://howtodevez.medium.com/using-express-validator-for-data-validation-in-nodejs-6946afd9d67e
+https://stackoverflow.com/questions/16133923/400-vs-422-response-to-post-of-data
+https://www.w3schools.com/js/js_loop_forin.asp
+https://deadsimplechat.com/blog/environment-variables-in-nodejs/
+https://codewithpawan.medium.com/authentication-and-authorization-in-node-js-a-comprehensive-guide-2755b57dce27
+https://stackoverflow.com/questions/54015897/winston-howto-modify-the-output-order-of-timestamp-level-message-etc
+
+The global error handling middleware can only handle errors inside the express.js application.
+Any error that occurs outside the express application cannot be handled by it.
+So, we will use an event listener to handle rejected promises globally.
+
+
+Whenever an unhandled rejection occurs inside our code, the process.on() listener will emit and unHandledRejection event. The callback function inside the process.on() will receive the event object, which will be an error. Inside that error, we will receive the rejected promise. 
+
+Since we can't do anything about an unhandled rejection, so we should close the server first and only then exit. This will allow the server to deal with all pending requests before closing.
+
+In a production level system, when a server crashes, there will also be a way to restart the server automatically. 

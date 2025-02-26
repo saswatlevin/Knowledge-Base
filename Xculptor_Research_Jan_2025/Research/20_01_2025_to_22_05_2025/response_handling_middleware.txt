@@ -1,0 +1,54 @@
+Here’s an Express middleware that intercepts and records all outgoing responses. The middleware wraps res.send to log the responses before they are sent to the client:
+
+javascript
+Copy
+Edit
+const express = require('express');
+const app = express();
+
+// Middleware to record all responses
+const recordResponses = (req, res, next) => {
+  // Store the original send method
+  const originalSend = res.send;
+
+  // Override the send method
+  res.send = function (body) {
+    // Log the response body
+    console.log('Response:', body);
+
+    // Call the original send method
+    return originalSend.call(this, body);
+  };
+
+  next();
+};
+
+// Apply the middleware
+app.use(recordResponses);
+
+// Example route
+app.get('/', (req, res) => {
+  res.send('Hello, world!');
+});
+
+// Start the server
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
+Explanation:
+Override res.send: This middleware saves the original res.send function and overrides it with a custom function that logs the response body.
+Log the Response: Before sending the response to the client, it logs the response content.
+Preserve Original Behavior: The overridden method calls the original res.send to ensure the response is sent correctly.
+Use Cases:
+Debugging and monitoring responses.
+Logging response data for auditing or analytics.
+Notes:
+If you're handling large responses, be mindful of performance and memory usage.
+For JSON responses, ensure that the body is properly stringified or parsed if necessary.
+
+
+
+
+
+

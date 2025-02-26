@@ -1,0 +1,10 @@
+1) Libraries and middleware that are essential for writing APIs. {} -> Authentication, User Management, etc.
+2) How to write APIs -> Steps for doing that (How to use the libraries to write APIs)
+3) Documenting the APIs -> Documentation Framework, Best Practices, Self-Help for the users, try now (examples), sample cases.
+
+We will go deeper in to 1) and 2)
+
+API Documentation, API File Structure, API Examples, Error Handling,
+API Itself -> How to write good api? What are the best practices to write API
+Authentication & Authorisation, Pre-required token, Headers, 
+Have entire middleware ready for error handling.

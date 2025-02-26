@@ -1,0 +1,19 @@
+1) We will Mongoose's built-in validator. 
+2) Keep it simple to have scalability.
+Wherever the built-in validator isn't sufficient, we will, add custom validator (Create our own).
+So that all requests aren't sent to mongoose.
+3) At the endpoint side validation -> Compare Joi and express-validator (Built on top of validator.js)
+If we find that express-validator -> link-validation, password (regex), we will use it.
+
+We will focus on express-validator and mongoose built-in validator.
+After the researching the above 2, shift the focus from libraries to architecture -> How do we build central error middleware?
+
+1) Creating a centralized middleware -> Throw next(error) -> Caught by central error handling middleware [Global Error Handling Middleware -> Present]
+1a) Document the entire architecture
+2a) In a dev env and prodn env -> Differentiate the error messages and content that can be shown to the end-user.
+Error Types -> Operational Error / Non-Opn error / API Error
+3a) When the global identifies 2 things after catching the error -> What needs to be communicated to the user 
+and If anything needs to be communicated to the user.
+API Error -> Show error text to customer that tells him what to do.
+
+How do we make sure that we have a separate repository of all error messages and error codes.

@@ -1,0 +1,18 @@
+6 types of errors were identified by me. They  are:
+1) File Not Found Error (For .html pages) -> Thrown by file system, caught by global error handler*
+
+2) MongoDB document Validation Error -> Thrown by Mongoose, caught by async error handler, then global error handler*.
+
+3) MongoDB Duplication Error -> Thrown by MongoDB, caught by async error handler, then global error handler*.
+
+4) MongoDB id not found error -> No error thrown, MongoDB returns successful response despite document not being present. This is because MongoDB regards any 12-character alphanumeric combination to be a valid ID. It is caught by async error handler, then global error handler*.
+
+5) MongoDB CastError (For invalid document id) -> Thrown by mongoose,It is caught by async error handler, then global error handler*.
+
+6) Database connection error -> Thrown by mongoose.connect(). Handled by global promise rejection handler. 
+
+For each of these errors, I have handled them on the server itself by creating new CustomError objects.
+There is a more scalable way to handle all these errors and have user-friendly error messages in them and that it by creating small sub-handlers for each of the above types of errors. That is what I will be working on tomorrow after our discussion.
+
+* -> Global Error Handler refers to Synchronous Error Handler.
+
