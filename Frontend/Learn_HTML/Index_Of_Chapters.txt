@@ -1,0 +1,10 @@
+Chapter 1 - HTML           - Information on <head>, <body>, <title>, etc.and metadata.
+Chapter 2 - HEAD           - Information on the <head> tag and linking stylesheets.
+Chapter 3 - TEXT BASICS    - Information on different kinds of headings, HTML Entities, Block elements and Inline elements.
+Chapter 4 - LIST TYPES     - Information on Ordered, Unordered and Descriptive Lists.
+Chapter 5 - ADDING LINKS   - Information on Absolute and Relative References, Anchor Tags, Hyperlinks, email and telephone links.
+Chapter 6 - ADDING IMAGES  - Information on the <img> tag and its attributes and behaviour.
+Chapter 7 - SEMANTIC TAGS  - Information on the <nav>. <main>, <article>, <aside> anf many other tags with semantic meaning.
+Chapter 8 - TABLES         - Information on the different elements of HTML Tables.
+Chapter 9 - FORMS & INPUTS - Information on different elements used in HTML forms. 
+
