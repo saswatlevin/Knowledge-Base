@@ -1,0 +1,16 @@
+Chapter 01 - START HERE      - The functions of HTML and CSS and the definition of a selector.
+Chapter 02 - SELECTORS       - Different types of selectors and the Cascade Rule.
+Chapter 03 - COLORS          - Different ways of obtaining colors. Covers the rgb(), rgba(), hsl() and hsla() functions.
+Chapter 04 - UNITS AND SIZES - The size units units: em, rem, px, vw, vh, %, etc.
+Chapter 05 - BOX MODEL       - The Box Model in CSS.
+Chapter 06 - TYPOGRAPHY      - The different text properties, definition of text and font and how to import fonts in CSS.
+Chapter 07 - STYLING LINKS   - Definition of pseudoclass, different kinds of cursors and states of a link.
+Chapter 08 - LIST STYLES     - The properties of HTML Lists in CSS and nth-child selector.
+Chapter 10 - DISPLAY         - The display property in CSS. Covers the block, inline and inline-block display settings.
+Chapter 11 - FLOATS          - Covers the use of the float property.
+Chapter 12 - COLUMNS         - Covers the use of columns in CSS and their different properties.
+Chapter 13 - POSITION        - Covers the use of different positions in CSS like static, relative, etc and also the z-index.
+Chapter 14 - FLEXBOX         - The Flexbox Model of positioning elemnts. It also introduces the concept of fraction units.
+Chapter 15 - GRID LAYOUT     - The Grid Layout model of positioning elements.
+Chapter 16 - IMAGES          - Covers the <img> tag and different things that can be done using images.
+Chapter 17 - MEDIA QUERIES   - Covers the format of a media query and also the screen size specs of Bootstrap and Tailwind frameworks.    
