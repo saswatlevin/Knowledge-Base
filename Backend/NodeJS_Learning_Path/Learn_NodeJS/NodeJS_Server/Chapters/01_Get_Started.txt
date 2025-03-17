@@ -1,0 +1,11 @@
+================================01 - GETTING STARTED================================
+Node can be run in the terminal.
+Node can be exited using ".exit" in the terminal.
+Any file can be run using "Node <file_name>.js"
+
+We use the "global" object in NodeJS instead of the "window" object in JS.
+The Common Core Modules are used here using the CommonJS syntax instead of ES6 syntax.
+The Common COre modules have info related to OS.
+Large number of packages are available as NPM packages for NodeJS.
+================================01 - GETTING STARTED================================
+

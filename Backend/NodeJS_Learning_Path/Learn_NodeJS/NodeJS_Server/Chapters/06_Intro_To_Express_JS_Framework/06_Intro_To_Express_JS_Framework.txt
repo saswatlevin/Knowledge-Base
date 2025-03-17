@@ -1,0 +1,25 @@
+======================================INTRO TO EXPRESS JS FRAMEWORK======================================
+app.get() is a route handler.
+app.get() routes HTTP GET requests to the specified path with the specified callback functions.
+
+The res.sendFile() function does 2 things:
+Transfers the file at the given path. 
+Sets the Content-Type response HTTP header field based on the filename’s extension.
+
+The res.redirect() function does the following:
+Redirects to the URL derived from the specified path, with specified status code.
+If no status code is specified, it uses the status code 302 (Found).
+
+It contains 2 things: a route and an anonymous function which takes 2 arguments: a request and a response.
+The route passed to route handlers can contain regular expressions.
+The said anonymous function serves the page. It uses res.sendFile() to serve the page at the given path.
+
+Other route handlers such as app.post(), app.put(), etc. exist too.
+The anaonymous functions passed to those handlers perform actions other than serving a page.
+
+Express.js is like a waterfall -> This means that when a request comes, the route handlers are checked in the order in which they are placed in the "server.js" file. 
+When a matching route handler is found, the anonymous function in it is executed.
+
+Route handlers can be chained together using the next() function.
+The next() function just makes the flow of control go to the function immediately after the function in which next() was called.
+======================================INTRO TO EXPRESS JS FRAMEWORK======================================

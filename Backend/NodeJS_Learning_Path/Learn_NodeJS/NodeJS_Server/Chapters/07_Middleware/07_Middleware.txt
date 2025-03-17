@@ -1,0 +1,24 @@
+===================================07 - MIDDLEWARE=====================================
+Any thing that comes between the request and the response is called Middleware.
+Route handlers may be considered to be a kind of middleware.
+There are 3 types of middleware: Built-in, CUstom and Third Party.
+
+app.use() is used to apply middleware.
+Built-in middleware doesn't need to use next() explicitly. It is already included in it.
+Custom middleware - created by us needs to use next().
+
+Middleware is applied in the order in which app.use() statements are placed.
+The "express.urlencoded()" middleware allows the server to accept form data.
+The "express.json()" middleware allows the server to accept JSON data in the request body.
+The "express.static()" middleware allows the server to render CSS and display images.
+
+The logger logs all HTTP requests sent to the server.
+The "req.method" is the HTTP method of the request.
+The "req.headers.origin" tells us where the request came from.
+The "req.url" is the URL of the request.
+
+
+
+
+Stopped at 02:38:09. 
+===================================07 - MIDDLEWARE=====================================

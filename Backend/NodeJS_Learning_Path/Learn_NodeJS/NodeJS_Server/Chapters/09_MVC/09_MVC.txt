@@ -1,0 +1,35 @@
+=================MVC=====================
+F_I_L_E_S C_R_E_A_T_E_D ->
+	/config/corsOptions.js
+	/model/employees.json
+	/controllers/employeesController.js
+
+The route handlers of the "employees" API is defined.
+The getAllEmployees() controller just gets all the data from the file.
+
+The createNewEmployee() function does the folllowing: 
+	It creates a newEmployees object with the id, firstname and lastname.
+	It adds this employee to the employees database using the spread operator.
+	It sends the entire database as a res.json(). 
+
+The updateEmployees() function does the following:
+	It finds the employee from the database using the id.
+	It updates the firstname and the lastname from the request body, if they're present.
+	It creates a filteredArray of employees other than the updated employee.
+	It then creates an unsortedArray by adding the filteredArray and the updated employee using the spread operator.
+	It then adds this unsortedArray to the employees database.
+	It sends the entire database as a res.json(). 
+
+The deleteEmployee() function does the following:
+	It finds the employee to be deleted using the id.
+	It checks whether the employee to be deleted exists in the database.
+	It creates a filteredArray of employees other than the deleted employee.
+	It adds this filteredArray to the employees database using the spread operator.
+	It sends the deleted employee as a res.json().
+
+The getEmployee() function does the following:
+	It finds the requested employee using the id.
+	It sends the obtained employee as a res.json().
+
+
+=================MVC=====================

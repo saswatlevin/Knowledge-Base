@@ -1,0 +1,16 @@
+==========================04 - EVENT EMITTER==========================
+F_I_L_E_S C_R_E_A_T_E_D -> 
+	index.js
+	logEvents.js
+
+The logEvents() function is an "async" function.
+Each log entry consists of date, time, a unique ID and a message.
+The "events" module is imported as EventEmitter. It helps to emit events.
+An empty class MyEmitter extends the EventEmitter module.
+The on() function is used as a listener for "log" events. 
+The logEvents() is passed inside on() as:
+	const myEmitter = new MyEmitter();
+	myEmitter.on("log", (msg) => logEvents(msg));
+The setTimeout() function is used to emit events using the myEmitter.emit() function with a delay of 2000ms.
+ 
+==========================04 - EVENT EMITTER==========================

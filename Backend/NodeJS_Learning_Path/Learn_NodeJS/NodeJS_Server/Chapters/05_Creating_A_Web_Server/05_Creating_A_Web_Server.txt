@@ -1,0 +1,52 @@
+=====================CREATING A WEB SERVER=====================
+F_I_L_E_S C_R_E_A_T_E_D -> 
+	server.js
+	
+	/css/style.css
+	
+	/img/img1.jpg
+	
+	/data/data.txt
+	/data/data.json
+
+	/views/404.html
+	/views/index.html
+	/views/new-page.html
+		/subdir/index.html
+		/subdir/test.html
+
+
+
+The server.listen() function listens for requests to the server on the given port.
+The http.createServer() function is used to create a server.
+The port is set to 3500.
+
+A SERVER EXAMPLE:
+	The response status code is set to 200.
+	The response header is set to Content-Type, text/html.
+	The file is read at the appropriate path.
+	The response is ended by sending data.
+
+The http.createServer() creates a server by returning an instance of http.Server().
+
+The response.writeHead() function sends a response to the request.
+It sends the response headers along with a statu code and a status message.
+
+The response.end() method signals to the server that all of the response headers and body have been sent; 
+That the server should consider this message complete. 
+The method, response.end(), MUST be called on each response.
+
+A BASIC SERVER:
+	Get the extension from the request url.
+	Determine the content type according to the extension.
+	Determine the file path according to the content type.
+	Check if the file exists in the determined file path.
+	SERVE THE FILE:
+		If the File Exists:
+			Read the file
+			Send the response headers and status using writeHead().
+			Send the data using end().
+		Else:
+			Redirect using writeHead() to index.html
+			Use end() to end the response.
+=====================CREATING A WEB SERVER=====================

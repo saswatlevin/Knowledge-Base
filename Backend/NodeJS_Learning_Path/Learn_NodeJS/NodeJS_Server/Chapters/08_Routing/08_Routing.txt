@@ -1,0 +1,13 @@
+====================ROUTING====================
+F_I_L_E_S C_R_E_A_T_E_D ->
+	/routes/root.js
+	/routes/subdir.js
+		/api/employees.js
+
+The express.static() middleware to serve static files has to be added separately for each directory.
+The route handlers for each directory ("/" and "/subdir") can be put into separate files. 
+They can then be called in the "server.js" file using app.use('<route_name>', require(<path_to_route_file>))
+app.use() in the current NodeJS version supports the use of regex in routes.
+The get(), post(), put(), delete(), etc. routes can be chained to the router.route() function.
+
+====================ROUTING====================

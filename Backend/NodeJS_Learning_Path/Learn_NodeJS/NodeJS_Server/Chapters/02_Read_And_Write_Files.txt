@@ -1,0 +1,31 @@
+================================02 - READ AND WRITE FILES================================
+F_I_L_E_S C_R_E_A_T_E_D -> 
+	index.js
+	stream.js
+	dir.js
+
+The File System Module is "fs".
+
+The readFile() is used to read files.
+The readFile() gives buffered data by default. To get ASCII formatted data, we need to "stringify()" it.
+The writeFile() is used to write to files. It creates a file in a directory if it isn't already present.
+The unlink() function is used to delete a file.
+
+The appendFile() is used to append content to a file w/o over-writing it. It creates a file in a directory if it isn't already present.
+The process() is an in-built module. "process.on()" is used to listen for errors.
+The path() function should be used to encode file paths. It makes file paths compatible across OSs.
+
+The readFile(), writeFile(), appendFile() functions do not always execute synchronously, but do so in the order in which their respective operations are completed.
+If we need the readFile(), writeFile() and appendFile() functions to execute in a certain order, then we need to call them inside each other in that order.
+As an alternative to the above method, we can create an "async" function and call the file handling functions using "await" in the desired order.
+This needs us to use the file handling functions from the "const fsPromises = require('fs').promises" module.
+
+Read and Write streams can be created to read from and write to files in parts.
+The on() function is used to listen. It can be used by the read stream to pass the read data to the write stream.
+The pipe() function is a more efficient way of passing data from the read stream to the write stream.
+
+The mkdir() function is used to create directories.
+The existsSync() function  is used to check if a given directory exists.
+The rmdir() function is used to remove directories.
+
+================================02 - READ AND WRITE FILES================================
