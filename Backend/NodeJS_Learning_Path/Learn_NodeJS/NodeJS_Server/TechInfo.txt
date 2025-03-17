@@ -1,0 +1,132 @@
+=========================TECHNICAL SECTION==================
+    =============OPTIONAL CHAINING OPERATOR=============
+    Included as part of ECMAScript 2020.
+
+    The Optional Chaining Operator returns undefined if an object is undefined or null (instead of throwing an error).
+    If one of the objects in the chaining operation is undefined or null, then this operator returns the result of this operation as undefined.
+    Eg -> const car = {type:"Fiat", model:"500", color:"white"};
+	  let name = car?.name;
+    =============OPTIONAL CHAINING OPERATOR=============
+    
+    =============SPREAD OPERATOR========================
+    The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.
+    
+    COMBINE 2 ARRAYS TOGETHER 
+    Eg -> const numbersOne = [1, 2, 3];
+	  const numbersTwo = [4, 5, 6];
+	  const numbersCombined = [...numbersOne, ...numbersTwo]; 
+    
+    ASSIGN THE FIRST AND SECOND ELEMENTS OF numbers TO VARIABLES AND ASSIGN THE REST TO AN ARRAY
+    Eg -> const numbers = [1, 2, 3, 4, 5, 6];
+          const [one, two, ...rest] = numbers;
+    
+    COMBINE TWO OBJECTS INTO ONE OBJECT
+    Eg -> const myVehicle = {
+          	brand: 'Ford',
+  		model: 'Mustang',
+  		color: 'red'
+	  }
+
+	 const updateMyVehicle = {
+  		type: 'car',
+  		year: 2021, 
+  		color: 'yellow'
+	 }
+
+    const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle};
+    =============SPREAD OPERATOR========================
+
+    =============REST PARAMETER==========================
+	function myFunction(...args) {
+  		// Code goes here
+	}
+    The REST operator allows a function to accept an infinite number of arguments.
+    It collects all of these arguments together as an array.
+    
+    Eg -> ADD INFINITE NUMBERS USING REDUCE()
+    function sum(...numbers) {
+  	return numbers.reduce((total, num) => total + num, 0);
+    }
+    =============REST PARAMETER==========================
+    
+    =============MAP()===================================
+    map() creates a new array from calling a function for every array element.
+    map() does not execute the function for empty elements.
+    map() does not change the original array.
+    
+    Eg -> RETURN A NEW ARRAY WITH THE SQUARE ROOT OF ALL ELEMENT VALUES
+    const numbers = [4, 9, 16, 25];
+    const newArr = numbers.map(Math.sqrt)
+    =============MAP()===================================
+    
+    =============REDUCE()================================
+    The reduce() method executes a reducer function for array element.
+    The reduce() method returns a single value: the function's accumulated result.
+    The reduce() method does not execute the function for empty array elements.
+    The reduce() method does not change the original array.
+    
+    Eg -> ROUND ALL THE NUMBERS AND DISPLAY THE SUM
+    const numbers = [175, 50, 25];
+
+    document.getElementById("demo").innerHTML = numbers.reduce(myFunc);
+
+    function myFunc(total, num) {
+       return total - num;
+    }
+    =============REDUCE()================================
+
+    =============FIND()==================================
+    The find() method returns the value of the first element that passes a test.
+    The find() method executes a function for each array element.
+    The find() method returns undefined if no elements are found.
+
+    The find() method does not execute the function for empty elements.
+    The find() method does not change the original array.
+    
+    Eg -> FIND AGES GREATER THAN 18
+    const ages = [3, 10, 18, 20];
+    
+    function checkAge(age) {
+        return age > 18;
+    }
+    document.getElementById("demo").innerHTML = ages.find(checkAge);
+    =============FIND()==================================
+    
+    =============FILTER()================================
+    The filter() method creates a new array filled with elements that pass a test provided by a function.
+    The filter() method does not execute the function for empty elements.
+    The filter() method does not change the original array.
+    
+    Eg -> FIND AGES GREATER THAN 18
+    const ages = [32, 33, 16, 40];
+    const result = ages.filter(checkAdult);
+
+    function checkAdult(age) {
+        return age >= 18;
+    }
+    =============FILTER()================================
+    
+    =============APP.USE()===============================
+    Mounts the specified middleware function or functions at the specified path. 
+    The middleware function is executed when the base of the requested path matches path.
+    =============APP.USE()===============================
+    
+    =============NEXT()==================================
+    next() with no arguments says "just kidding, I don't actual want to handle this". 
+    It goes back in and tries to find the next route that would match.
+    
+    Example Below:
+    app.get('/:pageslug', function(req, res, next){
+    var page = db.findPage(req.params.pageslug);
+    if (page) {
+       res.send(page.body);
+    } else {
+       next();
+      }
+    });
+
+    app.get('/other_routes', function() {
+      //...
+    });
+    =============NEXT()==================================
+=========================TECHNICAL SECTION==================

@@ -1,0 +1,22 @@
+SAUDI ARABIA:
+Django: Known for its scalability and security, Django is a Python-based framework that's frequently used for developing complex and secure web applications. It is especially popular in sectors requiring high levels of security, such as finance and government services.
+
+Laravel: As a PHP framework, Laravel is widely adopted in Saudi Arabia because of its simplicity, extensive documentation, and ability to handle full-scale applications with built-in functionalities like routing and templating.
+
+Express.js: Given the growing prominence of JavaScript and Node.js for back-end development, Express.js is often chosen for projects that require fast, scalable API development, especially in industries aiming for real-time capabilities like e-commerce and FinTech​
+
+AUSTRALIA:
+React.js is a highly popular front-end JavaScript library that is favored for building dynamic user interfaces and is widely used in modern web applications.
+
+Angular.js, developed by Google, is another top choice for building large-scale, complex single-page applications, particularly in enterprise environments.
+
+Vue.js is known for its simplicity and flexibility, making it a preferred choice for smaller and medium-sized projects, especially for developers looking for a progressive framework.
+
+Express.js, a Node.js framework, is commonly used for building APIs and server-side applications.
+
+
+INDIA:
+React.js
+Angular.js
+Spring Boot
+Laravel
