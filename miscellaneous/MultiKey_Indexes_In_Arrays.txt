@@ -1,0 +1,3 @@
+https://www.mongodb.com/community/forums/t/building-unique-index-on-array-of-embedded-documents/105981
+Here, it says that it isn't possible to create uniqueness multi-key indexes for sub-documents in an array. 
+Such indexes can only be created to check values across documents and not values within the same document.
