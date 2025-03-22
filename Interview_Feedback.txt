@@ -1,0 +1,2 @@
+1) Learn Events, Event Loop, Async Function, Promises, Resolution of Promises
+2) Learn Kafka, Zookeeper, RabbitMQ
