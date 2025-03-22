@@ -1,0 +1,1 @@
+https://www.mongodb.com/developer/products/mongodb/mongodb-schema-design-best-practices/
