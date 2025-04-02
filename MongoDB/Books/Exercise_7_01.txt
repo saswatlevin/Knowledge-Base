@@ -1,0 +1,11 @@
+Return the top three movies in the romance genre sorted by IMDb rating, and return only 
+movies released before 2001.
+
+var pipeline = [
+		
+        { $match: { "genres": { $in:["romance"] } }, {"released": {$lte: ISODate("01-01-2001T00:00:00Z")} }},
+        { $sort: { "imdb.rating": -1 } },
+        { $limit: 3 },
+        { $project: {"title": 1, "genres": 1, "released": 1, "imdb.rating": 1  }}
+       
+    ];
