@@ -1,0 +1,11 @@
+"For only movies older than 2001, find the average and maximum popularity for each 
+genre, sort the genres by popularity, and find the adjusted (with trailers) runtime of the 
+longest movie in each genre."
+
+var pipeline = [
+		{ $match: { {"released": {$lte: ISODate("01-01-2001T00:00:00Z")} }},
+		{ $group: { _id: {"$arrayElemAt": ["$genres", 0]}, "avgPopularity": {$avg: "$imdb.rating" }, "maxPopularity": {$max: "$imdb.rating" }, "longestRuntime": { $max: "$runtime"} } }		
+        { $sort: { "popularity": -1 } },
+        { $project: {"_id": 1, "avgPopularity": 1, "maxPopularity": 1, "adjustedRuntime": {$add: [ "longestRuntime", 12 ] } } }
+       
+    ];

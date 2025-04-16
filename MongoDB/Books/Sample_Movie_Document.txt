@@ -1,0 +1,86 @@
+_id
+573a1390f29313caabcd50e5
+plot
+"The cartoonist, Winsor McCay, brings the Dinosaurus back to life in th…"
+
+genres
+Array (3)
+0
+"Animation"
+1
+"Short"
+2
+"Comedy"
+runtime
+12
+
+cast
+Array (3)
+0
+"Winsor McCay"
+1
+"George McManus"
+2
+"Roy L. McCardell"
+num_mflix_comments
+0
+poster
+"https://m.media-amazon.com/images/M/MV5BMTQxNzI4ODQ3NF5BMl5BanBnXkFtZT…"
+title
+"Gertie the Dinosaur"
+fullplot
+"Winsor Z. McCay bets another cartoonist that he can animate a dinosaur…"
+
+languages
+Array (1)
+0
+"English"
+released
+1914-09-15T00:00:00.000+00:00
+
+directors
+Array (1)
+0
+"Winsor McCay"
+
+writers
+Array (1)
+0
+"Winsor McCay"
+
+awards
+Object
+wins
+1
+nominations
+0
+text
+"1 win."
+lastupdated
+"2015-08-18 01:03:15.313000000"
+year
+1914
+
+imdb
+Object
+rating
+7.3
+votes
+1837
+id
+4008
+
+countries
+Array (1)
+0
+"USA"
+type
+"movie"
+
+tomatoes
+Object
+
+viewer
+Object
+lastUpdated
+2015-08-10T19:20:03.000+00:00
